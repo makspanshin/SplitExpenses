@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleAppTest\ConsoleAppTest.csproj", "{EBA30C8D-4F19-4BDE-A9C6-BF4637DA139A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitExpensesCalculation", "SplitExpensesCalculation\SplitExpensesCalculation.csproj", "{854E650C-3E1E-4987-9110-37785C2331E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitExpenses.DAL", "SplitExpenses.DAL\SplitExpenses.DAL.csproj", "{8879D534-AF50-4435-BF59-38B1E182E828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{854E650C-3E1E-4987-9110-37785C2331E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854E650C-3E1E-4987-9110-37785C2331E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854E650C-3E1E-4987-9110-37785C2331E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8879D534-AF50-4435-BF59-38B1E182E828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8879D534-AF50-4435-BF59-38B1E182E828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8879D534-AF50-4435-BF59-38B1E182E828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8879D534-AF50-4435-BF59-38B1E182E828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,8 +11,7 @@ public class Group
 
     public string Name { get; set; }
 
-    public List<Member> Members { get; set; }
+    public List<Member>? Members { get; set; }
 
-    public List<Transaction> Transactions { get; set; }
-
+    public List<Transaction>? Transactions { get; set; }
 }

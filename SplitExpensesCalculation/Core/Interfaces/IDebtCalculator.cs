@@ -1,6 +1,6 @@
 ﻿using SplitExpensesCalculation.Models;
 
-namespace SplitExpensesCalculation.Core;
+namespace SplitExpensesCalculation.Core.Interfaces;
 
 public interface IDebtCalculator
 {
