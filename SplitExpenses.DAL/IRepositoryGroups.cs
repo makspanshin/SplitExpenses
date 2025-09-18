@@ -6,9 +6,9 @@ public interface IRepositoryGroups
 {
     public Task GetGroupAsync(string name, string? Nickname);
 
-    public Task AddGroupAsync(string name);
+    public Task AddGroupAsync(string name, string nickName);
 
-    public Task AddMemberAsync(string name);
+    public Task AddMemberAsync(string nameMember, string? nickname, string nameGroup);
 
     public Task RemoveMemberAsync(Member member);
 
